@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	MySQL
+%define		pdir	Crypt
+%define		pnam	MySQL
 Summary:	Crypt::MySQL - emulate MySQL PASSWORD() function
 Summary(pl):	Crypt::MySQL - emulacja funkcji MySQL PASSWORD()
 Name:		perl-Crypt-MySQL
