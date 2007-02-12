@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	MySQL
 Summary:	Crypt::MySQL - emulate MySQL PASSWORD() function
-Summary(pl):	Crypt::MySQL - emulacja funkcji MySQL PASSWORD()
+Summary(pl.UTF-8):   Crypt::MySQL - emulacja funkcji MySQL PASSWORD()
 Name:		perl-Crypt-MySQL
 Version:	0.02
 Release:	1
@@ -25,10 +25,10 @@ Crypt::MySQL emulates MySQL PASSWORD() SQL function, without
 libmysqlclient. You can compare encrypted passwords, without real
 MySQL environment.
 
-%description -l pl
-Crypt::MySQL emuluje funkcjê SQL PASSWORD() z MySQL bez
-libmysqlclient. Pozwala porównywaæ zaszyfrowane has³a bez prawdziwego
-¶rodowiska MySQL.
+%description -l pl.UTF-8
+Crypt::MySQL emuluje funkcjÄ™ SQL PASSWORD() z MySQL bez
+libmysqlclient. Pozwala porÃ³wnywaÄ‡ zaszyfrowane hasÅ‚a bez prawdziwego
+Å›rodowiska MySQL.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
