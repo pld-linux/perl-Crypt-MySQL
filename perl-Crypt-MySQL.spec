@@ -8,13 +8,13 @@
 Summary:	Crypt::MySQL - emulate MySQL PASSWORD() function
 Summary(pl.UTF-8):	Crypt::MySQL - emulacja funkcji MySQL PASSWORD()
 Name:		perl-Crypt-MySQL
-Version:	0.02
-Release:	3
+Version:	0.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	dfaf418d37f4f690f8e69a2e03e74371
+# Source0-md5:	e9a2d1e7f478fe8c90a15c47de37c0ae
 URL:		http://search.cpan.org/dist/Crypt-MySQL/
 %{?with_tests:BuildRequires:	perl-Test-Simple >= 0.32}
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -56,8 +56,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes
 %{perl_vendorarch}/Crypt/MySQL.pm
+%{perl_vendorarch}/Crypt/MySQL.xs
 %dir %{perl_vendorarch}/auto/Crypt/MySQL
-%{perl_vendorarch}/auto/Crypt/MySQL/autosplit.ix
 %{perl_vendorarch}/auto/Crypt/MySQL/MySQL.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/MySQL/MySQL.so
 %{_mandir}/man3/*
