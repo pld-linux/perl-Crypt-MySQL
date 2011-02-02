@@ -16,7 +16,11 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e9a2d1e7f478fe8c90a15c47de37c0ae
 URL:		http://search.cpan.org/dist/Crypt-MySQL/
-%{?with_tests:BuildRequires:	perl-Test-Simple >= 0.32}
+%if %{with tests}
+BuildRequires:	perl-DBD-mysql
+BuildRequires:	perl-Digest-SHA1
+BuildRequires:	perl-Test-Simple >= 0.32}
+%endif
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
