@@ -62,6 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Crypt/MySQL.pm
 %{perl_vendorarch}/Crypt/MySQL.xs
 %dir %{perl_vendorarch}/auto/Crypt/MySQL
-%{perl_vendorarch}/auto/Crypt/MySQL/MySQL.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/MySQL/MySQL.so
 %{_mandir}/man3/*
