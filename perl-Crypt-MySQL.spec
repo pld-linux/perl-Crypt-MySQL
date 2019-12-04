@@ -9,7 +9,7 @@ Summary:	Crypt::MySQL - emulate MySQL PASSWORD() function
 Summary(pl.UTF-8):	Crypt::MySQL - emulacja funkcji MySQL PASSWORD()
 Name:		perl-Crypt-MySQL
 Version:	0.04
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
